@@ -8,11 +8,39 @@ html {
 	box-sizing: inherit;
 }
 
+a{
+	color: #000;
+	text-decoration: none;
+	
+}
+
 .container {
 	max-width: 1720px;
 	padding: 0 100px;
+	display: flex;
+	align-items: center;
+	height: 90px;
 }
 
-.logo {
-	margin: 0 auto;
+.header__inner {
+	margin: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90px;
 }
+
+.menu__list {
+	display: flex;
+	}
+	
+.menu__list li{
+	margin-left: 34px;
+	list-style-type: none;
+	}
+	.menu__list a{
+		font-size: 14px;
+		/* color: #ffffff; */
+		font-weight: 700;
+		font-family: 'Open Sans', sans-serif;
+	}
