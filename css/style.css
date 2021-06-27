@@ -1,7 +1,6 @@
 html {
 	box-sizing: border-box;
 }
-/* AWESOME! */
 
 *,
 *::after,
@@ -9,11 +8,10 @@ html {
 	box-sizing: inherit;
 }
 
-a{
+a {
 	color: #000;
 	text-decoration: none;
-	
-}
+	}
 
 .container {
 	max-width: 1720px;
@@ -23,7 +21,7 @@ a{
 	height: 90px;
 }
 
-.header__inner {
+.header__logo {
 	margin: center;
 	display: flex;
 	align-items: center;
