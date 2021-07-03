@@ -93,7 +93,7 @@ button{
 
 .menu__list {
 	display: flex; 
-	justify-content:space-between;
+	justify-content:left;
 	gap: 34px;
 }
 
@@ -112,15 +112,10 @@ button{
 	transform: translate(-50%);
 	-webkit-transform: translate(-50%);
 	-moz-transform: translate(-50%);
-	-ms-transform: translate(-50%);
+	-ms-transform: translate(-50%);`
 	-o-transform: translate(-50%);
 }
 
-.navigation {
-	display: flex;
-	justify-content: space-between;
-
-}
 .burger {
 	display: none;
 
