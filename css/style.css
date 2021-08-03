@@ -101,59 +101,23 @@ button{
 	font-size: 16px;
 	line-height: 40px;
 	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.02em;
-	
+		
 }
 .header__logo {
 	position: absolute;
 	top: 70px;
 	left: 50%;
-	transform: translate(-50%);
-	-webkit-transform: translate(-50%);
-	-moz-transform: translate(-50%);
-	-ms-transform: translate(-50%);`
-	-o-transform: translate(-50%);
-}
-
-.burger {
-	display: none;
-
-	cursor: pointer;
-
-	position: fixed;
-
-	top: 30px;
-	left: 20px;
-}
-
-.burger__img {
-	width: 30px;
-}
-
-@media (max-width:1300px) {
-	.navigation{
-		 display: none;
-	}
 	
-
 }
-@media (max-width:1300px) {    
-	.burger{
-		 display: block;
-	}
-}
-
-
 
 .header__box {
 	display: flex;
-}    
+	}    
 
 .personal {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: right;
+	align-items: right;
 	gap: 45px;
 }
 
@@ -166,7 +130,7 @@ button{
 	width: 20px;
 	height: 20px;
 
-	position: absolute;
+	position: right;
 	top: -15px;
 	right: -14px;
 
@@ -182,7 +146,7 @@ button{
 }
 .header__social{
 	display: flex;
-	justify-content: space-between;
+	justify-content: right;
 	gap: 7px;
 }
 .social {
@@ -266,6 +230,34 @@ button{
 
 .btn--green {
 	background-color: #0aa566;
+}
+
+.burger {
+	display: none;
+
+	cursor: pointer;
+
+	position: fixed;
+
+	top: 30px;
+	left: 20px;
+}
+
+.burger__img {
+	width: 30px;
+}
+
+@media (max-width:1300px) {
+	.navigation{
+		 display: none;
+	}
+	
+
+}
+@media (max-width:1300px) {    
+	.burger{
+		 display: block;
+	}
 }
 
 .smoothies {
