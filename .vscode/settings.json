@@ -1,0 +1,12 @@
+{
+	"indentRainbow.errorColor": "rgba(64,32,0,0.6)",
+	"indentRainbow.excludedLanguages": [
+	
+		"plaintext"
+	],
+	"indentRainbow.ignoreErrorLanguages": [
+
+		"markdown"
+	],
+	"indentRainbow.tabmixColor": "rgba(125,125,64,25)"
+}
