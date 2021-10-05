@@ -54,12 +54,14 @@
 body {
 	font-family: Muli, sans-serif;
 	color: #fff;
+	
 
 }
 
 ul {
 	list-style: none;
 }
+
 
 a {
 	text-decoration: none;
@@ -127,7 +129,7 @@ button {
 
 .nav__list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	gap: 34px;
 }
 
@@ -142,6 +144,8 @@ button {
 
 .header__box {
 	display: flex;
+	justify-content: right;
+	align-items: center;
 }
 
 .personal {
@@ -216,7 +220,28 @@ button {
 }
 
 
-
+.header__btn {
+	display: flex;
+	text-decoration: none;
+	height: 60px;
+	border-radius: 30px;
+	font-family: Muli-ExtraBold;
+	font-weight: 800;
+	font-size: 21px;
+	color: #ffffff;
+	max-width: 280px;
+	width: 100%;
+	height: 70px;
+	border: none;
+	border-radius: 35px;
+	background-color: #0aa566;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: -0.48px;
+	align-items: center;
+	padding-left: 40px;
+	position: relative;
+}
 
 
 
@@ -390,6 +415,7 @@ button {
 .about__btn {
 	position: relative;
 	width: 382px;
+	border-radius: 30px;
 	border: 2px solid #f8b231;
 
 
@@ -591,6 +617,8 @@ button {
 }
 
 .testimonials__box {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	max-width: 470px;
 	margin-right: 50px;
