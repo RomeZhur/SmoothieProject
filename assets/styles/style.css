@@ -54,8 +54,6 @@
 body {
 	font-family: Muli, sans-serif;
 	color: #fff;
-
-
 }
 
 ul {
@@ -108,7 +106,6 @@ button {
 .navigation {
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .header__nav {
@@ -118,11 +115,8 @@ button {
 
 .burger {
 	display: none;
-
 	cursor: pointer;
-
 	position: fixed;
-
 	top: 30px;
 	left: 20px;
 }
@@ -148,7 +142,6 @@ button {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
-
 }
 
 .header__box {
@@ -173,15 +166,11 @@ button {
 	text-align: center;
 	width: 20px;
 	height: 20px;
-
 	position: absolute;
 	top: -15px;
 	right: -14px;
-
 	color: black;
-
 	background-color: #fff;
-
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -197,19 +186,15 @@ button {
 }
 
 .social {
-
 	padding-left: 136px;
 	position: relative;
 }
 
 .social::before {
 	content: "";
-
 	width: 50px;
 	height: 2px;
-
 	background-color: #f1cf89;
-
 	position: absolute;
 	top: 20px;
 	left: 22px;
@@ -307,11 +292,8 @@ button {
 	align-items: center;
 	flex: 1 0 25%;
 	flex-wrap: wrap;
-
 	max-width: 1010px;
-
 	margin: 0 auto;
-
 	background-color: #f6edde;
 
 }
@@ -324,7 +306,6 @@ button {
 	width: 252px;
 	height: 190px;
 	background-color: #fff;
-
 	padding-top: 27px;
 
 }
@@ -349,7 +330,6 @@ button {
 	font-weight: 800;
 	letter-spacing: -0.02em;
 	color: #f2612d;
-
 	margin: 24px 0 50px 0;
 
 }
@@ -376,7 +356,6 @@ button {
 
 .about__content {
 	margin-left: 140px;
-
 	max-width: 615px;
 }
 
@@ -384,7 +363,6 @@ button {
 
 	font-size: 55px;
 	line-height: 60px;
-
 	margin-top: 95px;
 	margin-bottom: 55px;
 }
@@ -402,7 +380,6 @@ button {
 	height: 13px;
 	left: -10px;
 	top: 60px;
-
 	background-image: url(../images/line.png);
 	position: absolute;
 }
@@ -410,7 +387,6 @@ button {
 .about__list {
 	margin-bottom: 55px;
 	margin-left: 25px;
-
 	list-style-image: url(../images/slaid.png);
 }
 
@@ -426,7 +402,8 @@ button {
 
 .about__btn {
 	position: relative;
-	width: 382px;
+	width: 100%;
+	max-width: 382px;
 	height: 60px;
 	border-radius: 30px;
 	border: 2px solid #f8b231;
@@ -450,7 +427,6 @@ button {
 
 .products__wrapper {
 	display: flex;
-
 }
 
 /* .products__img {
@@ -486,7 +462,6 @@ button {
 	font-size: 21px;
 	line-height: 32px;
 	font-style: italic;
-
 	margin-bottom: 55px;
 }
 
@@ -498,18 +473,17 @@ button {
 	font-size: 24px;
 	line-height: 22px;
 	font-weight: 700;
-
 	margin-bottom: 10px;
 }
 
 .products__btn {
+	position: relative;
 	text-indent: -95px;
-	width: 207px;
+	width: 100%;
+	max-width: 207px;
 	height: 60px;
 	border-radius: 30px;
-
 	border: 1px solid #fff;
-	position: relative;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	-ms-border-radius: 30px;
@@ -518,7 +492,6 @@ button {
 
 .products__btn::after {
 	content: '';
-
 	width: 30px;
 	height: 16px;
 	position: absolute;
@@ -529,9 +502,7 @@ button {
 
 .story__wrap {
 	display: flex;
-
 	padding: 120px 0 160px;
-
 	position: relative;
 }
 
@@ -575,7 +546,8 @@ button {
 
 .story__btn {
 	position: relative;
-	width: 304px;
+	width: 100%;
+	max-width: 304px;
 	height: 60px;
 	font-size: 21px;
 	border-radius: 30px;
@@ -638,22 +610,18 @@ button {
 	margin-bottom: 19px;
 	font-size: 18px;
 	line-height: 35px;
-
 }
 
 .testimonials__quote {
-
 	font-size: 18px;
 	margin-bottom: 20px;
 }
 
 .testimonials__cite {
-
 	line-height: 45px;
 	font-weight: 600;
 	font-style: italic;
 	color: #f7ae3b;
-
 }
 
 .testimonials__img {
