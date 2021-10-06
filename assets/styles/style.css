@@ -844,12 +844,35 @@ button {
 .footer__inner {
 	display: flex;
 	margin: 50px 0 37px 123px;
+	
+}
+
+.footer__form-btn {
+font-size: 24px;
+line-height: 40px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: -0.02em;
+color: #6d450c;
+margin-bottom: 45px;
+position: relative;
+}
+
+.footer__form-btn::before {
+	content: "";
+	background-image: url(../images/arrow-footer.png);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 43px;	
+	position: absolute;
+	left: -70px;
+	top: -10px;
 }
 
 .footer__social {
 	display: flex;
 	justify-content: space-between;
-	gap: 7px;
+	gap: 25px;
 }
 
 .footer__bottom {
