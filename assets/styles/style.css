@@ -54,7 +54,7 @@
 body {
 	font-family: Muli, sans-serif;
 	color: #fff;
-	
+
 
 }
 
@@ -111,6 +111,11 @@ button {
 
 }
 
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+}
+
 .burger {
 	display: none;
 
@@ -126,6 +131,10 @@ button {
 	width: 30px;
 }
 
+.header__content {
+	display: flex;
+	justify-content: center;
+}
 
 .nav__list {
 	display: flex;
@@ -161,6 +170,7 @@ button {
 }
 
 .personal__counter {
+	text-align: center;
 	width: 20px;
 	height: 20px;
 
@@ -243,13 +253,15 @@ button {
 	position: relative;
 }
 
-
-
-
-
-
-
-
+.header__btn::after {
+	content: '';
+	width: 30px;
+	height: 15px;
+	position: absolute;
+	background-image: url(../images/arrow.png);
+	top: 40%;
+	right: 40px;
+}
 
 
 .smoothies {
@@ -415,26 +427,21 @@ button {
 .about__btn {
 	position: relative;
 	width: 382px;
+	height: 60px;
 	border-radius: 30px;
 	border: 2px solid #f8b231;
-
-
 	text-indent: -70px;
 
 }
 
 .about__btn::after {
 	content: '';
-
 	width: 30px;
 	height: 15px;
-
 	position: absolute;
 	background-image: url(../images/arrow.png);
 	top: 40%;
-
 	right: 40px;
-
 }
 
 .title--green {
@@ -498,6 +505,7 @@ button {
 .products__btn {
 	text-indent: -95px;
 	width: 207px;
+	height: 60px;
 	border-radius: 30px;
 
 	border: 1px solid #fff;
@@ -513,11 +521,9 @@ button {
 
 	width: 30px;
 	height: 16px;
-
 	position: absolute;
-	top: 25px;
+	top: 40%;
 	right: 40px;
-
 	background-image: url(../images/arrow-white.png);
 }
 
@@ -549,7 +555,6 @@ button {
 
 .story__text {
 	max-width: 510px;
-
 	margin-bottom: 50px;
 }
 
@@ -571,20 +576,23 @@ button {
 .story__btn {
 	position: relative;
 	width: 304px;
+	height: 60px;
 	font-size: 21px;
+	border-radius: 30px;
 	background-color: #0aa566;
-
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 }
 
 .story__btn::after {
 	content: '';
-
 	width: 30px;
 	height: 15px;
-
 	position: absolute;
 	background-image: url(../images/arrow.png);
-	top: 20px;
+	top: 40%;
 	right: 45px;
 }
 
@@ -600,9 +608,9 @@ button {
 }
 
 .testimonials__review {
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 	margin-bottom: 2px;
 	position: relative;
 }
@@ -628,7 +636,6 @@ button {
 
 .testimonials__info {
 	margin-bottom: 19px;
-
 	font-size: 18px;
 	line-height: 35px;
 
@@ -637,7 +644,6 @@ button {
 .testimonials__quote {
 
 	font-size: 18px;
-
 	margin-bottom: 20px;
 }
 
@@ -726,40 +732,63 @@ button {
 
 .blog__text {
 
-	max-width: 425px;
+	max-width: 472px;
 	margin-left: 125px;
 }
 
-.instagram {
+.blog__link {
+	text-decoration: none;
+	position: relative;
+}
+
+.blog__link::after {
+	content: "";
+	background-image: url(./../images/arrow.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 5px;
+	left: 95px;
+}
+
+.blog__strong {
+	font-family: Muli-BoldItalic;
+	font-style: italic;
+}
+
+.instagram_wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 5px;
+}
+
+.instagram__title-list {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
 }
 
 .instagram__title {
+	font-size: 24px;
+	color: #0aa566;
+	margin-bottom: 45px;
 	position: relative;
-	text-align: center;
-	margin: 0 0 45px 0;
 }
 
 .instagram__title::before {
 	content: "";
-	width: 100%;
-	height: 100%;
 	background-image: url(../images/icon.png);
 	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	left: -35px;
 	top: 8px;
 }
 
-.instagram__link {
-	font-size: 24px;
-
-	color: hsl(156, 89%, 34%);
-}
-
-.instagram__wrapper {
+.instagram__galery {
 	display: flex;
 	margin-bottom: 10px;
 }
@@ -781,7 +810,7 @@ button {
 	background-image: url(../images/icon-insta.png);
 
 	position: absolute;
-
+	background-repeat: no-repeat;
 	bottom: 20px;
 	right: 20px;
 }
