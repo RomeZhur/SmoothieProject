@@ -498,8 +498,8 @@ button {
 .story__wrap::after {
 	content: '';
 	position: absolute;
-	top: 810px;
-	right: 70px;
+	top: 800px;
+	right: 50px;
 	background-image: url(../images/dots.png);
 	width: 410px;
 	height: 301px;
@@ -563,8 +563,9 @@ button {
 }
 
 .testimonials {
-	background-color: #632d1b;
-	padding: 117px 0 80px;
+	background-color: #672d1d;
+	padding: 105px ;
+	height: 720px;
 }
 
 .testimonials__title {
@@ -577,7 +578,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 2px;
+	margin-bottom: 120px;
 	position: relative;
 }
 
@@ -585,10 +586,11 @@ button {
 	content: 'Sarah A';
 	font-weight: 800;
 	position: absolute;
-	top: -131px;
+	top: -80px;
+	left: 315px;
 	font-size: 200px;
 	color: #5a200f;
-}
+	}
 
 .testimonials__box {
 	display: flex;
@@ -596,23 +598,19 @@ button {
 	text-align: center;
 	max-width: 470px;
 	margin-right: 50px;
-	padding-top: 20px;
+	padding-top: 55px;
 	z-index: 10;
 }
 
 .testimonials__info {
-	margin-bottom: 19px;
+	margin-bottom: 5px;
 	font-size: 18px;
 	line-height: 35px;
 }
 
-.testimonials__quote {
-	font-size: 18px;
-	margin-bottom: 20px;
-}
-
 .testimonials__cite {
 	line-height: 45px;
+	font-size: 17px;
 	font-weight: 600;
 	font-style: italic;
 	color: #f7ae3b;
@@ -625,9 +623,9 @@ button {
 .testimonials__wrap {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	gap: 25px;
-}
+	gap: 90px;
+	top: 5px;
+	}
 
 .testmonials__btn {
 	width: 30px;
