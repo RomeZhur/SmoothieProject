@@ -115,7 +115,6 @@ button {
 
 .burger {
 	display: none;
-	cursor: pointer;
 	position: fixed;
 	top: 30px;
 	left: 20px;
@@ -181,11 +180,11 @@ button {
 .header__social {
 	display: flex;
 	justify-content: space-between;
-	gap: 7px;
+	gap: 10px;
 }
 
 .social {
-	padding-left: 136px;
+	padding-left: 135px;
 	position: relative;
 }
 
@@ -195,8 +194,8 @@ button {
 	height: 2px;
 	background-color: #f1cf89;
 	position: absolute;
-	top: 20px;
-	left: 22px;
+	top: 70%;
+	left: 60px;
 }
 
 .social__item {
@@ -217,25 +216,20 @@ button {
 .header__btn {
 	display: flex;
 	text-decoration: none;
-	height: 60px;
-	border-radius: 30px;
-	font-family: Muli-ExtraBold;
 	font-weight: 800;
-	font-size: 21px;
-	color: #ffffff;
+	font-size: 24px;
 	max-width: 280px;
 	width: 100%;
 	height: 70px;
 	border: none;
 	border-radius: 35px;
 	background-color: #0aa566;
-	font-size: 24px;
 	line-height: 1.2;
 	letter-spacing: -0.48px;
 	align-items: center;
-	padding-left: 40px;
+	padding-left: 45px;
 	position: relative;
-}
+	}
 
 .header__btn::after {
 	content: '';
@@ -349,14 +343,15 @@ button {
 }
 
 .about__content {
-	margin-left: 140px;
+	margin-left: 120px;
 	max-width: 615px;
+	width: 100%;
 }
 
 .about__title {
 	font-size: 55px;
 	line-height: 60px;
-	margin-top: 95px;
+	margin-top: 90px;
 	margin-bottom: 55px;
 }
 
@@ -400,6 +395,10 @@ button {
 	border-radius: 30px;
 	border: 2px solid #f8b231;
 	text-indent: -70px;
+	font-family: Muli;
+	font-size: 20px;
+	font-weight: 800;
+	
 
 }
 
@@ -419,19 +418,18 @@ button {
 
 .products__wrapper {
 	display: flex;
+	height: 720px;
 }
 
-/* .products__img {
-    width: 119px;
-    height: 303px;
-} */
 .products__item {
-	align-items: center;
 	display: flex;
+	align-items: center;
 	width: 480px;
+	max-width: 100%;
 	flex-direction: column;
 	justify-content: center;
-	padding: 129px 0 78px;
+	padding: 130px 0 80px;
+	overflow-x: auto;
 }
 
 .products__item--orange {
@@ -458,7 +456,7 @@ button {
 }
 
 .products__img {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 .products__title {
@@ -470,17 +468,16 @@ button {
 
 .products__btn {
 	position: relative;
-	text-indent: -95px;
+	text-indent: -90px;
 	width: 100%;
-	max-width: 207px;
+	max-width: 210px;
 	height: 60px;
+	font-family: Muli;
+	font-weight: 700;
+	font-size: 21px;
 	border-radius: 30px;
-	border: 1px solid #fff;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	-ms-border-radius: 30px;
-	-o-border-radius: 30px;
-}
+	border: 2px solid #fff;
+	}
 
 .products__btn::after {
 	content: '';
@@ -509,11 +506,11 @@ button {
 }
 
 .story__content {
-	margin: 150px 200px 0px 310px;
+	margin: 130px 200px 0px 310px;
 }
 
 .story__title {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .story__text {
@@ -537,13 +534,18 @@ button {
 }
 
 .story__btn {
-	position: relative;
-	width: 100%;
-	max-width: 304px;
-	height: 60px;
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+	text-decoration: none;
+	font-weight: 700;
 	font-size: 21px;
+	max-width: 304px;
+	width: 100%;
+	height: 60px;
 	border-radius: 30px;
 	background-color: #0aa566;
+	position: relative;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	-ms-border-radius: 30px;
