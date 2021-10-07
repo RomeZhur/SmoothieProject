@@ -82,9 +82,9 @@ button {
 }
 
 .container {
-	max-width: 1740px;
+	max-width: 1720px;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 .header__top {
@@ -132,7 +132,7 @@ button {
 .nav__list {
 	display: flex;
 	justify-content: flex-start;
-	gap: 34px;
+	gap: 32px;
 }
 
 .nav__link {
@@ -175,7 +175,6 @@ button {
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
 }
-
 
 .header__social {
 	display: flex;
@@ -284,7 +283,7 @@ button {
 	align-items: center;
 	flex: 1 0 25%;
 	flex-wrap: wrap;
-	max-width: 1010px;
+	max-width: 1020px;
 	margin: 0 auto;
 	background-color: #f6edde;
 }
@@ -574,6 +573,10 @@ button {
 	position: relative;
 }
 
+.testimonials__word {
+	color: #f2612d;
+}
+
 .testimonials__review {
 	display: flex;
 	justify-content: center;
@@ -647,7 +650,8 @@ button {
 
 .blog__wrap {
 	display: flex;
-	justify-content: center;
+	margin-left: 255px;
+	height: 580px;
 }
 
 .blog__title {
@@ -655,8 +659,8 @@ button {
 }
 
 .blog__textbox {
-		margin-top: 210px;
-		position: relative;
+	margin-top: 210px;
+	position: relative;
 }
 
 .blog__textbox::after {
@@ -693,6 +697,7 @@ button {
 
 	max-width: 472px;
 	margin-left: 125px;
+	margin-top: 30px;
 }
 
 .blog__link {
