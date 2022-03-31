@@ -1,1 +1,1 @@
-# SmoothieProject
+# Му first project "Smoothie"
